@@ -1,0 +1,51 @@
+<psitree>
+<AtmCfg>
+<initCfg structureId="2" threadPriority="25" freeCellQSize="10" freePktQSize="200" freePktQBufSize="1600" freePktQBufOffset="32" rxCellQSize="10" rxPktQSize="200" txFifoPriority="64" aal5MaxSduLen="64" aal2MaxSduLen="0"/>
+</AtmCfg>
+<AtmCfgTd>
+<td1 cat="UBR" PCR="0" SCR="0" MBS="0"/>
+</AtmCfgTd>
+<SecCfg>
+<srvCtrlList ftp="lan" http="enable" icmp="enable" snmp="lan" ssh="lan" telnet="lan" tftp="lan"/>
+<accCtrl tableSize="2">
+<accCtrlEntry id="1" ipAddr="192.168.1.0" netMask="255.255.255.0" interface="lan"/>
+<accCtrlEntry id="2" ipAddr="64.33.192.210" netMask="255.255.255.255" interface="wan"/>
+</accCtrl>
+<accCtrlMode state="enable"/>
+</SecCfg>
+<Lan>
+<entry1 address="192.168.1.254" mask="255.255.255.0" dhcpServer="disable" leasedTime="24" startAddr="192.168.1.2" endAddr="192.168.1.254"/>
+<ethSwCfg interface1="eth0" type1="auto" port1="1" interface2="eth0" type2="auto" port2="1" interface3="eth0" type3="auto" port3="1" interface4="eth0" type4="auto" port4="1"/>
+</Lan>
+<WirelessCfg>
+<vars state="enabled" hide="0" ssId="Comtrend" country="ALL" authMode="open" radiusServerIP="0.0.0.0" radiusServerPort="1812" radiusServerKey="" wep="disabled" auth="0" keyBit="128-bit" key64_1="" key64_2="" key64_3="" key64_4="" key64Index="1" key128_1=""  key128_2=""  key128_3=""  key128_4=""  key128Index="1" wpaRekey="0" wpakey=""  wpa="tkip" fltMacMode="disabled"  apMode="ap"  bridgeRestrict="disabled"  wdsMAC_0=""  wdsMAC_1=""  wdsMAC_2=""  wdsMAC_3=""  apIsolation="off" band="a" channel="11" rate="auto" multicastRate="auto" basicRate="default" fragThreshold="2346" RTSThreshold="2347" DTIM="1" beacon="100" XPress="off" gMode="auto" gProtection="auto" preamble="long" AfterBurner="off" WME="off" WMENoAck="off" Preauthentication="off" ReauthTimeout="36000"/>
+</WirelessCfg>
+<SystemInfo>
+<sysLog state="enable" displayLevel="ERR" logLevel="DEBUG" option="local" serverIP="0.0.0.0" serverPort="514"/>
+<protocol autoScan="enable" upnp="enable" igmpSnp ="enable" macFilterPolicy="forward" encodePassword="enable" siproxd="enable" enetwan="disable"/>
+<snmp state="disable" readCommunity="public" writeCommunity="private" sysName="Comtrend" sysLocation="unknown" sysContact="unknown" trapIP="0.0.0.0"/>
+<sysUserName value="root"/>
+<dns dynamic="enable" primary="0.0.0.0" secondary="0.0.0.0"/>
+</SystemInfo>
+<RouteCfg>
+<ripGlobal state="disable" ripIfcTableSize="1"/>
+<ripIfc tableSize="1">
+<ripIfcEntry id="1" name="br0" state="disable" version="2" operation="active"/>
+</ripIfc>
+</RouteCfg>
+<PMapCfg>
+<pmap tableSize="1">
+<pmapEntry id="1" groupName="Default" ifList="usb0|eth0|wl0|nas_0_35"/>
+</pmap>
+</PMapCfg>
+<AtmCfgVcc>
+<vccId1 vpi="0" vci="35" tdId="1" aalType="AAL5" adminStatus="up" encap="llc" qos="disable"/>
+</AtmCfgVcc>
+<ADSL/>
+<DDNSCfg/>
+<SNTPCfg/>
+<ToDCfg/>
+<wan_0_35>
+<entry1 vccId="1" conId="1" name="mer_0_35" protocol="BRIDGE" encap="LLC" firewall="disable" nat="disable" igmp="disable" vlanId="-1" service="enable"/>
+</wan_0_35>
+</psitree>

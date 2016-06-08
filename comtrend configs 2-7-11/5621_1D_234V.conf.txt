@@ -1,0 +1,64 @@
+<psitree>
+<SystemInfo>
+<protocol autoScan="enable" upnp="disable" igmpSnp ="enable" igmpMode ="disable" enblEnhancedIgmp ="1" macFilterPolicy="forward" encodePassword="enable" siproxd="enable" siproxdport="5060" enetwan="disable"/>
+<sysLog state="disable" displayLevel="ERR" logLevel="DEBUG" option="local" serverIP="0.0.0.0" serverPort="514"/>
+<sysUserName value="root"/>
+<snmp state="enable" readCommunity="public" writeCommunity="private" sysName="Comtrend" sysLocation="unknown" sysContact="unknown" trapIP="64.33.192.210" debug="7fff5100" configId="10001bf8"/>
+<dns dynamic="enable" primary="192.168.1.1" secondary="192.168.1.1" domain=""/>
+<sysPassword value="dGNjYWRzbA=="/>
+<sptPassword value="dGNjYWRzbA=="/>
+<usrPassword value="dGNjYWRzbA=="/>
+</SystemInfo>
+<AtmCfg>
+<initCfg structureId="2" threadPriority="25" freeCellQSize="10" freePktQSize="200" freePktQBufSize="1600" freePktQBufOffset="32" rxCellQSize="10" rxPktQSize="200" txFifoPriority="64" aal5MaxSduLen="64" aal2MaxSduLen="0"/>
+</AtmCfg>
+<AtmCfgTd>
+<td1 cat="UBR" PCR="0" SCR="0" MBS="0"/>
+</AtmCfgTd>
+<SecCfg>
+<srvCtrlList ftp="lan" http="enable" icmp="enable" snmp="enable" ssh="lan" telnet="lan" tftp="lan" tr69c="lan"/>
+<accCtrl tableSize="2">
+<accCtrlEntry id="1" ipAddr="192.168.1.0" netMask="255.255.255.0" interface="lan"/>
+<accCtrlEntry id="2" ipAddr="64.33.192.210" netMask="255.255.255.255" interface="wan"/>
+</accCtrl>
+<accCtrlMode state="enable"/>
+</SecCfg>
+<Lan>
+<entry9999 address="1.1.1.1" mask="255.255.255.0" dhcpServer="disable" confDhcpSrv="disable" leasedTime="0" startAddr="0.0.0.0" endAddr="0.0.0.0" subnetMask="0.0.0.0" dnsRelay="disable" instanceId="1509949444"/>
+<entry1 address="192.168.1.1" mask="255.255.255.0" dhcpServer="enable" confDhcpSrv="enable" leasedTime="24" startAddr="192.168.1.2" endAddr="192.168.1.254" subnetMask="255.255.255.0" dnsRelay="enable" instanceId="1509949441"/>
+<ethSwCfg interface1="eth0" type1="auto" port1="1" interface2="eth0" type2="auto" port2="2" interface3="eth0" type3="auto" port3="3" interface4="eth0" type4="auto" port4="4"/>
+</Lan>
+<RouteCfg>
+<ripGlobal state="disable" ripIfcTableSize="1"/>
+<ripIfc tableSize="1">
+<ripIfcEntry id="1" name="br0" state="disable" version="2" operation="active"/>
+</ripIfc>
+</RouteCfg>
+<AtmCfgVcc>
+<vccId9999 vpi="0" vci="65534" tdId="0" aalType="AAL2" adminStatus="down" encap="unknown" qos="disable" instanceId="1509949442"/>
+<vccId1 vpi="0" vci="35" tdId="1" aalType="AAL5" adminStatus="up" encap="llc" qos="enable" instanceId="1509949441"/>
+<vccId2 vpi="0" vci="36" tdId="1" aalType="AAL5" adminStatus="up" encap="llc" qos="enable" instanceId="1509949442"/>
+</AtmCfgVcc>
+<PMapCfg>
+<pmap tableSize="2">
+<pmapEntry id="1" groupName="Default" ifList="usb0|eth0.2" vendorid0="" vendorid1="" vendorid2="" vendorid3="" vendorid4=""/>
+<pmapEntry id="2" groupName="Video" ifList="eth0.3|eth0.4|eth0.5|nas_0_36" vendorid0="" vendorid1="" vendorid2="" vendorid3="" vendorid4=""/>
+</pmap>
+<pmapIfcCfg pmapIfName="eth0" pmapIfcStatus="enable"/>
+</PMapCfg>
+<ipsrv_0_35>
+<dhcpc_conId1 state="enable" wanAddress="255.255.255.255" wanMask="255.255.255.255"/>
+</ipsrv_0_35>
+<wan_0_35>
+<entry1 vccId="1" conId="1" name="mer_0_35" protocol="MER" encap="LLC" firewall="disable" nat="enable" igmp="disable" vlanId="-1" service="enable" instanceId="1509949443"/>
+</wan_0_35>
+<wan_0_36>
+<entry1 vccId="2" conId="1" name="br_0_36" protocol="BRIDGE" encap="LLC" firewall="disable" nat="disable" igmp="disable" vlanId="-1" service="enable" instanceId="1509949444"/>
+</wan_0_36>
+<ADSL/>
+<CertCfg/>
+<DDNSCfg/>
+<SNTPCfg/>
+<ToDCfg/>
+<EngDbgCfg/>
+</psitree>

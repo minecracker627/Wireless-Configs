@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Manifest type="ONT">
+<Version release="CALIX_P-SERIES_11.1.60.21" />
+<Ident stream="ont_packager" timestamp="Fri Oct  2 08:54:31 2015" username="swbuild" view="" />
+<OntMap model="" product="P0" tag="ONT-SG1" vendor="CXNK" />
+<OntMap model="" product="P1" tag="ONT-GP" vendor="CXNK" />
+<OntMap model="" product="P2" tag="ONT-SG1" vendor="CXNK" />
+<File compat="3-3" crc="671580828" fileversion="11.1.60.21" serverpath="RelFiles/olt/ont" size="28062704" tag="ONT-SG1" targetfile="CALIX_800.bin" targetpath="" type="ONTIMAGE,NOEXECUTE" />
+<File compat="3-3" crc="4046110974" fileversion="11.1.60.21" serverpath="RelFiles/olt/ont" size="13380856" tag="ONT-GP" targetfile="CALIX_800GP.bin" targetpath="" type="ONTIMAGE,NOEXECUTE" />
+</Manifest>
+<!-- CRC=693761783 -->

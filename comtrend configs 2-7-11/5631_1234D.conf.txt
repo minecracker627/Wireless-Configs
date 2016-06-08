@@ -1,0 +1,78 @@
+<psitree>
+<WirelessCfg>
+<vars state="enabled" ssIdIndex="0" country="US"  userSsid="Comtrend" macnum="0" apMode="ap"  bridgeRestrict="disabled"  wdsMAC_0=""  wdsMAC_1=""  wdsMAC_2=""  wdsMAC_3=""  band="b" channel="11" rate="auto" multicastRate="auto" basicRate="default" fragThreshold="2346" RTSThreshold="2347" DTIM="1" beacon="100" XPress="off" gMode="auto" gProtection="auto" preamble="long" AfterBurner="off" TxPowerPercent="100" WME="off" WMENoAck="off" WMEApsd="on"  RegulatoryMode="off" PreNetRadarDectTime="60" InNetRadarDectTime="60" TpcMitigation="0" AutoChannelTimer="-1062731266" NBandwidthCap="2" NCtrlSideband="none" NBand="2" NMCSIdx="-1" NProtection="auto" NMode="auto" NReqd="off" />
+<wlMssidVars tableSize="4">
+<wlMssidEntry enblSsId="1" ssId="Comtrend" hide="0" apIsolation="off" fltMacMode="disabled" disableWme="off" MaxAssoc = "128"  authMode="open" radiusServerIP="0.0.0.0" radiusServerPort="1812" radiusServerKey="" wep="disabled" auth="0" keyBit="64-bit" key64_1="1d20b073dc" key64_2="" key64_3="" key64_4="" key64Index="1" key128_1=""  key128_2=""  key128_3=""  key128_4=""  key128Index="1" wpaRekey="0" wpakey=""  Preauthentication="off" ReauthTimeout="36000" wpa="tkip" tr69cBeaconType="Basic" tr69cBasicEncryptionModes="None" tr69cBasicAuthenticationMode="None" tr69cWPAEncryptionModes="WEPEncryption" tr69cWPAAuthenticationMode="PSKAuthentication" tr69cIEEE11iEncryptionModes="AESEncryption" tr69cIEEE11iAuthenticationMode="EAPAuthentication"/>
+<wlMssidEntry enblSsId="0" ssId="Guest" hide="0" apIsolation="off" fltMacMode="disabled" disableWme="off" MaxAssoc = "128"  authMode="open" radiusServerIP="0.0.0.0" radiusServerPort="1812" radiusServerKey="" wep="disabled" auth="0" keyBit="128-bit" key64_1="" key64_2="" key64_3="" key64_4="" key64Index="1" key128_1=""  key128_2=""  key128_3=""  key128_4=""  key128Index="1" wpaRekey="0" wpakey=""  Preauthentication="off" ReauthTimeout="36000" wpa="tkip" tr69cBeaconType="Basic" tr69cBasicEncryptionModes="None" tr69cBasicAuthenticationMode="None" tr69cWPAEncryptionModes="WEPEncryption" tr69cWPAAuthenticationMode="PSKAuthentication" tr69cIEEE11iEncryptionModes="AESEncryption" tr69cIEEE11iAuthenticationMode="EAPAuthentication"/>
+<wlMssidEntry enblSsId="0" ssId="Guest1" hide="0" apIsolation="off" fltMacMode="disabled" disableWme="off" MaxAssoc = "128"  authMode="psk2" radiusServerIP="0.0.0.0" radiusServerPort="1812" radiusServerKey="" wep="disabled" auth="0" keyBit="128-bit" key64_1="" key64_2="" key64_3="" key64_4="" key64Index="1" key128_1=""  key128_2=""  key128_3=""  key128_4=""  key128Index="1" wpaRekey="0" wpakey="72c054d529"  Preauthentication="off" ReauthTimeout="36000" wpa="aes" tr69cBeaconType="Basic" tr69cBasicEncryptionModes="None" tr69cBasicAuthenticationMode="None" tr69cWPAEncryptionModes="WEPEncryption" tr69cWPAAuthenticationMode="PSKAuthentication" tr69cIEEE11iEncryptionModes="AESEncryption" tr69cIEEE11iAuthenticationMode="EAPAuthentication"/>
+<wlMssidEntry enblSsId="0" ssId="Guest2" hide="0" apIsolation="off" fltMacMode="disabled" disableWme="off" MaxAssoc = "128"  authMode="psk2" radiusServerIP="0.0.0.0" radiusServerPort="1812" radiusServerKey="" wep="disabled" auth="0" keyBit="128-bit" key64_1="" key64_2="" key64_3="" key64_4="" key64Index="1" key128_1=""  key128_2=""  key128_3=""  key128_4=""  key128Index="1" wpaRekey="0" wpakey="72c054d529"  Preauthentication="off" ReauthTimeout="36000" wpa="aes" tr69cBeaconType="Basic" tr69cBasicEncryptionModes="None" tr69cBasicAuthenticationMode="None" tr69cWPAEncryptionModes="WEPEncryption" tr69cWPAAuthenticationMode="PSKAuthentication" tr69cIEEE11iEncryptionModes="AESEncryption" tr69cIEEE11iAuthenticationMode="EAPAuthentication"/>
+</wlMssidVars>
+</WirelessCfg>
+<SystemInfo>
+<protocol autoScan="enable" upnp="disable" igmpSnp ="enable" igmpMode ="enable" enblEnhancedIgmp ="1" macFilterPolicy="forward" encodePassword="enable" siproxd="enable" siproxdport="5060" ipconntrackmax="4000"/>
+<sysLog state="disable" displayLevel="ERR" logLevel="DEBUG" option="local" serverIP="0.0.0.0" serverPort="514"/>
+<sysUserName value="root"/>
+<snmp state="enable" readCommunity="public" writeCommunity="private" sysName="Comtrend" sysLocation="unknown" sysContact="unknown" trapIP="64.33.192.210"/>
+<dns dynamic="enable" primary="192.168.1.1" secondary="192.168.1.1" domain="" host="Comtrend"/>
+<sysPassword value="dGNjYWRzbA=="/>
+<sptPassword value="dGNjYWRzbA=="/>
+<usrPassword value="dGNjYWRzbA=="/>
+</SystemInfo>
+<AtmCfg>
+<initCfg structureId="2" threadPriority="25" freeCellQSize="10" freePktQSize="200" freePktQBufSize="1600" freePktQBufOffset="32" rxCellQSize="10" rxPktQSize="200" txFifoPriority="64" aal5MaxSduLen="64" aal2MaxSduLen="0"/>
+</AtmCfg>
+<AtmCfgTd>
+<td1 cat="UBR" PCR="0" SCR="0" MBS="0"/>
+</AtmCfgTd>
+<SecCfg>
+<srvCtrlList ftp="lan" http="enable" icmp="enable" snmp="enable" ssh="lan" telnet="lan" tftp="lan"/>
+<accCtrl tableSize="2">
+<accCtrlEntry id="1" ipAddr="192.168.1.0" netMask="255.255.255.0" interface="lan"/>
+<accCtrlEntry id="2" ipAddr="64.33.192.210" netMask="255.255.255.255" interface="wan"/>
+</accCtrl>
+<accCtrlMode state="enable"/>
+<qosMgmtCfg enableQos="enable" defaultDSCPMark="-1" defaultQueue="-1" defaultLineRate="80"/>
+</SecCfg>
+<Lan>
+<entry9999 address="1.1.1.1" mask="255.255.255.0" dhcpServer="disable" confDhcpSrv="disable" leasedTime="0" startAddr="0.0.0.0" endAddr="0.0.0.0" enblTftpSrv="disable" tftpServer="" subnetMask="0.0.0.0" dnsRelay="disable" instanceId="1509949443"/>
+<entry1 address="192.168.1.1" mask="255.255.255.0" dhcpServer="enable" confDhcpSrv="enable" leasedTime="24" startAddr="192.168.1.2" endAddr="192.168.1.254" enblTftpSrv="disable" tftpServer="" subnetMask="255.255.255.0" dnsRelay="enable" instanceId="1509949441"/>
+<ethSwCfg interface1="eth0" type1="auto" port1="1" interface2="eth0" type2="auto" port2="2" interface3="eth0" type3="auto" port3="3" interface4="eth0" type4="auto" port4="4"/>
+</Lan>
+<RouteCfg>
+<ripGlobal state="disable" ripIfcTableSize="1"/>
+<ripIfc tableSize="1">
+<ripIfcEntry id="1" name="br0" state="disable" version="2" operation="active"/>
+</ripIfc>
+</RouteCfg>
+<AtmCfgVcc>
+<vccId9999 portId="0" vpi="0" vci="65534" tdId="0" aalType="AAL2" adminStatus="down" encap="unknown" qos="disable" instanceId="1509949441"/>
+<vccId1 portId="0" vpi="0" vci="35" tdId="1" aalType="AAL5" adminStatus="up" encap="llc" qos="disable" instanceId="1509949441"/>
+</AtmCfgVcc>
+<PMapCfg>
+<pmap tableSize="1">
+<pmapEntry id="1" groupName="Default" groupKey="0" groupStatus="0" ifList="usb0|eth0|wl0|wl0.1" vendorid0="" vendorid1="" vendorid2="" vendorid3="" vendorid4=""/>
+</pmap>
+</PMapCfg>
+<ipsrv_0_0_35>
+<dhcpc_conId1 state="enable" wanAddress="255.255.255.255" wanMask="255.255.255.255" superDMZ="0" nonDmzIpAddr="192.168.2.1" nonDmzIpMsk="255.255.255.0"/>
+/>
+</ipsrv_0_0_35>
+<wan_0_0_35>
+<entry1 vccId="1" vlanMuxId="-1" conId="1" name="mer_0_35" protocol="MER" encap="LLC" firewall="disable" nat="enable" fullcone="disable" igmp="enable" vlanId="-1" service="enable" instanceId="1509949443" baseMacClone="1"/>
+</wan_0_0_35>
+<ADSL>
+<settings G.Dmt="enable" G.lite="enable" T1.413="enable" ADSL2="enable" AnnexL="enable" ADSL2plus="enable" AnnexM="enable" pair="inner" bitswap="enable" SRA="enable"/>
+</ADSL>
+<StaticIpCfg/>
+<DNSEntryCfg/>
+<CertCfg/>
+<DDNSCfg/>
+<SNTPCfg/>
+<ToDCfg/>
+<IPPCfg/>
+<EngDbgCfg/>
+<SlaveAdslMode>
+<bonding_fallback value="0"/>
+<bonding_bypass_flag value="1"/>
+</SlaveAdslMode>
+</psitree>
